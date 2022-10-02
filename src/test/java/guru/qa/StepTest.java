@@ -13,8 +13,8 @@ import static org.openqa.selenium.By.linkText;
 
 public class StepTest {
 
-    private static final String REPOSITORY = "eroshenkoam/allure-example";
-    private static final int ISSUE = 80;
+    private static final String REPOSITORY = "google/googletest";
+    private static final int ISSUE = 4026;
 
     @Test
     public void testLambdaTest() {
@@ -27,13 +27,13 @@ public class StepTest {
             $(".header-search-input").sendKeys(REPOSITORY);
             $(".header-search-input").submit();
         });
-        step("Кликаем по ссылке репозитория" + REPOSITORY, () -> {
+        step("Кликаем по ссылке репозитория " + REPOSITORY, () -> {
             $(linkText(REPOSITORY)).click();
         });
-        step("Открывает таб Issues", () -> {
+        step("Открываем таб Issues", () -> {
             $("#issues-tab").click();
         });
-        step("Проверяем наличие issue с номером " + ISSUE, () -> {
+        step("Проверяем наличие issue с номером #" + ISSUE, () -> {
             $(withText("#" + ISSUE)).should(Condition.exist);
         });
     }
