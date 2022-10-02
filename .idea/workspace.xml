@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc9ca447-d95f-40a6-b7a2-63436182ced2" name="Changes" comment="add simple ci">
+    <list default="true" id="fc9ca447-d95f-40a6-b7a2-63436182ced2" name="Changes" comment="add selenoid">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
       <recent name="guru.qa" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AttachmentsTest">
+  <component name="RunManager" selected="Gradle.StepTest">
     <configuration name="AttachmentsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -124,7 +126,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StepTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +139,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;guru.qa.SelenideTest&quot;" />
+            <option value="&quot;guru.qa.StepTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StepTest" />
         <item itemvalue="Gradle.AttachmentsTest" />
         <item itemvalue="Gradle.StepTest.testAnnotatedStep" />
         <item itemvalue="Gradle.HomeWork10 [allureServe]" />
         <item itemvalue="Gradle.StepTest.testLambdaTest" />
-        <item itemvalue="Gradle.SelenideTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664693286189</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add selenoid">
+      <created>1664693755612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664693755612</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +267,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add tests" />
     <MESSAGE value="add simple ci" />
-    <option name="LAST_COMMIT_MESSAGE" value="add simple ci" />
+    <MESSAGE value="add selenoid" />
+    <option name="LAST_COMMIT_MESSAGE" value="add selenoid" />
   </component>
 </project>
